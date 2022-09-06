@@ -117,26 +117,20 @@ nav {display:block; position:relative; float:left; width:100%; background-color:
     width:100%;
 }
 
-#main h1 {
-    font-size: 1.6em;
-    font-weight: bold;
-    margin: 1em 0 0 0;
-	padding: 0 0 1em 0; 
-    height:inherit;
-}
-
-#main h2, #main h3, #main h4, #main h5, #main h6 {
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
     font-size: 1.2em;
     font-weight: bold;
     margin: 2em 0 0 0;
-	padding: 0 0 1em 0; 
+    padding: 0 0 1em 0; 
     height:inherit;
 }
+
+#main h1 { font-size: 1.6em; margin-top: 1em; }
 
 .eventLink {font-size: 1.2em; font-weight: bold; text-decoration: underline; }
 
 
-#main p { /* main paragraph style */
+#main p {
     margin: 0 0 8px 0;
     font-size:1.0em;
 }
@@ -170,15 +164,6 @@ footer {color:white; padding: 0.5em 0 0.5em 0; font-size:0.8em;}
     position:relative;
 }
 
-input[type=submit], .basketSubmit {
-    color:white;
-    background: #7E3817;
-    border: 2px solid black;
-    padding:5px 10px 5px 10px;
-    font-weight:bold;
-}
-
-
 footer {
     position:relative;
     display:block;
@@ -201,7 +186,6 @@ footer a {color: black;}
 input[type=text], textarea {border: 1px solid black; }
 
 textarea {height:100px;}
-
 
 @media screen and (min-width: 1000px) {
     body { }
