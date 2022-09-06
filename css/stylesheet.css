@@ -1,0 +1,246 @@
+/* HTML5 Boilerplate */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+.hidden {
+    display: none;
+}
+
+.left {
+    position:relative; float: left;
+}
+
+.right {
+    position:relative; float: right;
+}
+
+.clear {clear: both;}
+
+div.socials {width: 190px; margin: 0 auto 0 auto; clear:both;}
+div.socials div {width:50px; height:50px; margin-right: 20px; float:left; }
+div.socials div:last-of-type{margin-right: 0px;}
+
+div.organisers {clear:both;}
+div.organisers div {width:200px; height:224px;  margin: 0 auto 0 auto;}
+
+
+div.rooms {clear:both;}
+div.rooms div {width:200px; height:120px; margin: 0 auto 0 auto;}
+div.rooms div img {width: 134px; float: left; }
+
+div.socials div a {width: 50px; height: 50px; float: left;}
+div.socials div img {width: 50px; height: 50px; float: left;}
+
+div.organisers div img {width: 134px; height: 134px; float: left; margin: 0 33px 0 33px ! important;}
+div.rooms div img {width: 120px; float: left; margin: 0 40px 0 40px ! important;}
+
+.mainLink {font-weight: bold;}
+.socialLink {color: #333333;}
+
+.blockLink {overflow: auto; display:block;}
+
+body {
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 0.8em;
+    -webkit-text-size-adjust: none;
+    color:#000000;
+    width:100%;
+}
+
+.page {
+    width:100%;
+    max-width:996px;
+    position:relative;
+    overflow:auto;
+    margin: 0 auto 0 auto;    
+    background:white;
+}
+
+a {
+    color: #2a3276;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+strong {
+    font-weight: bold;
+}
+
+header {
+    position:relative;
+    float:left;
+    height:50px;
+    width:100%;
+	background:url(/images/macc-tech-logo.png) center center no-repeat;
+}
+
+nav {display:block; position:relative; float:left; width:100%; background-color:white; }
+    nav ul li {text-transform:none;}
+	nav ul li a {color:white; font-weight:bold;}
+    nav ul li a, nav ul li span {display:block; float:left;}
+    nav ul {margin:2px 8px 2px 8px; list-style:none; position:relative; }    
+    nav ul li {position:relative; width:auto; float:left ! important; color:#2c1871; text-transform:uppercase; margin: 6px 0 6px 0; padding:0; font-size: 1.0em; border:none; }
+
+#main {
+    position:relative;
+    width:100%;
+}
+
+#main h1 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 1em 0 0 0;
+	padding: 0 0 1em 0; 
+    height:inherit;
+}
+
+#main h2, #main h3, #main h4, #main h5, #main h6 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 2em 0 0 0;
+	padding: 0 0 1em 0; 
+    height:inherit;
+}
+
+.eventLink {font-size: 1.2em; font-weight: bold; text-decoration: underline; }
+
+
+#main p { /* main paragraph style */
+    margin: 0 0 8px 0;
+    font-size:1.0em;
+}
+
+#content {
+    position:relative;
+    float:left;
+	width:100%;
+    overflow:hidden;
+    line-height: 1.4em;
+    font-size:1.2em;
+	text-align:center;
+}
+
+#content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+header, footer {background-color: #2a3276;}
+footer {color:white; padding: 0.5em 0 0.5em 0; font-size:0.8em;}
+
+#contentDiv {
+    position:relative; float:left; overflow:auto; padding:0; max-width: 96% ! important; width:96%; padding: 0 2% 0 2%;
+}
+
+#contentDiv p {
+    position:relative;
+}
+
+input[type=submit], .basketSubmit {
+    color:white;
+    background: #7E3817;
+    border: 2px solid black;
+    padding:5px 10px 5px 10px;
+    font-weight:bold;
+}
+
+
+footer {
+    position:relative;
+    display:block;
+    float:left;
+    width:100%;
+    position:relative;
+}
+
+footer p {
+    position: relative;
+    float: right;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+footer a {color: black;}
+
+input[type=text], textarea {border: 1px solid black; }
+
+textarea {height:100px;}
+
+
+@media screen and (min-width: 1000px) {
+    body { }
+    .page {border-left: 2px solid #cccccc; border-right: 2px solid #cccccc; border-bottom: 2px solid #cccccc; }
+    #main a {}
+    #content {display: block;  padding:0px 0px 0px 0px; }
+	#contentDiv {padding: 0 16px; 16px; 16px;}
+    nav {display:block;}
+    nav ul li {text-transform:none;}
+    nav ul li a, nav ul li span {display:block; float:left; }
+    nav ul {margin:2px 8px 2px 8px; list-style:none; position:relative; }    
+    nav ul li {position:relative; width:auto; float:left ! important; color:#2c1871; text-transform:uppercase; margin: 6px 0 6px 0; padding:0; font-size: 1.0em; border:none; }
+	.site img {max-width: 600px; width: 600px;}
+	.code {display:table-cell;}
+	.prefix {display:inline;}
+	div.socials{ width: 400px; height:100px; margin : 0 auto 0 auto;}
+	div.socials div {width:100px; height:100px; margin-right: 50px; float: left;}
+	div.socials div:last-of-type{margin-right: 0px;}
+	div.socials div a {width:100px; height: 100px;}
+	div.socials div img {width:100px; height: 100px;}
+	
+	
+	div.organisers{ width: 450px; height:204px; margin : 0 auto 0 auto;}
+	div.organisers div {margin-right: 50px; float: left;}
+	div.organisers div:last-of-type{margin-right: 0px;}
+	
+	div.rooms{ width: 200px; height:120px; margin : 0 auto 0 auto;}
+	div.rooms div {float: left;}
+	div.rooms div:last-of-type{margin-right: 0px;}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2) {
+	header {
+		background-image: url(/images/macc-tech-logo@2x.png);
+		-webkit-background-size: 150px 50px;
+		-moz-background-size: 150px 50px;
+		background-size: 150px 50px;
+	}
+}
