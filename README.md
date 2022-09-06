@@ -1,6 +1,4 @@
-![Macc Tech](https://github.com/Macc-Tech/macctech-website/blob/main/images/macc-tech-logo.png)
-
-## Repository for the Macc Tech website.
+# Repository for the Macc Tech website.
 
 Hopefully to be expanded in the near future.
 
