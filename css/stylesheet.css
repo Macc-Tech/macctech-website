@@ -67,6 +67,8 @@ div.rooms div img {width: 120px; float: left; margin: 0 40px 0 40px ! important;
 
 .blockLink {overflow: auto; display:block;}
 
+.highlight {color: #e80441; }
+
 body {
     font-family: Helvetica, Verdana, Arial, sans-serif;
     font-size: 0.8em;
