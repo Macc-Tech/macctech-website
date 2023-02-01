@@ -107,12 +107,7 @@ header {
 	background:url(/images/macc-tech-logo.png) center center no-repeat;
 }
 
-nav {display:block; position:relative; float:left; width:100%; background-color:white; }
-    nav ul li {text-transform:none;}
-	nav ul li a {color:white; font-weight:bold;}
-    nav ul li a, nav ul li span {display:block; float:left;}
-    nav ul {margin:2px 8px 2px 8px; list-style:none; position:relative; }    
-    nav ul li {position:relative; width:auto; float:left ! important; color:#2c1871; text-transform:uppercase; margin: 6px 0 6px 0; padding:0; font-size: 1.0em; border:none; }
+nav {display:block; position:relative; float:left; width:100%; background-color:white; }    
 
 #main {
     position:relative;
@@ -195,11 +190,8 @@ textarea {height:100px;}
     #main a {}
     #content {display: block;  padding:0px 0px 0px 0px; }
 	#contentDiv {padding: 0 16px; 16px; 16px;}
-    nav {display:block;}
-    nav ul li {text-transform:none;}
-    nav ul li a, nav ul li span {display:block; float:left; }
-    nav ul {margin:2px 8px 2px 8px; list-style:none; position:relative; }    
-    nav ul li {position:relative; width:auto; float:left ! important; color:#2c1871; text-transform:uppercase; margin: 6px 0 6px 0; padding:0; font-size: 1.0em; border:none; }
+    nav {display:block; background-color: #2a3276; color: white; font-weight: bold; border-top: 1px solid white; opacity: 0.9;}
+	nav a {color:white; }
 	.site img {max-width: 600px; width: 600px;}
 	.code {display:table-cell;}
 	.prefix {display:inline;}
