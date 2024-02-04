@@ -5,7 +5,6 @@ Hopefully to be expanded in the near future.
 
 Public link: [Macc Tech](https://macctech.co.uk/)
 
-_Soon to be running on GitHub Pages._
 
 Legacy Presentation Uploads can be found in the `/uploads` folder
 
