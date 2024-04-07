@@ -184,6 +184,17 @@ input[type=text], textarea {border: 1px solid black; }
 
 textarea {height:100px;}
 
+section.venues .venue { clear: both; }
+section.venues .venue>div { margin-bottom: 2em }
+section.venues .venue .details { width: 50%; float: left; padding-right: 8px; box-sizing: border-box; text-align: left; font-size: 0.7em; line-height: 1.5em; }
+section.venues .venue .details h2 { margin: 0 !important; padding: 0 !important; }
+section.venues .venue .details address { margin: 0 0 16px 0; }
+section.venues .venue .images { width: 50%; float: left; padding-left: 8px; box-sizing: border-box; }
+section.venues .venue .image img { width: 100%; }
+
+section.venues .venue-split { padding: 1em 0 0 0; clear: both; }
+
+
 @media screen and (min-width: 1000px) {
     body { }
     .page {border-left: 2px solid #cccccc; border-right: 2px solid #cccccc; border-bottom: 2px solid #cccccc; }
@@ -209,6 +220,14 @@ textarea {height:100px;}
 	div.rooms{ width: 200px; height:120px; margin : 0 auto 0 auto;}
 	div.rooms div {float: left;}
 	div.rooms div:last-of-type{margin-right: 0px;}
+
+    section.venues .venue { clear: unset !important; }
+    section.venues .venue { width: 50%; float: left; padding: 16px; box-sizing: border-box; }
+    section.venues .venue .details { width: 50%; font-size: 1em; line-height: inherit; }
+    section.venues .venue .details address { font-size: 0.8em; }
+    section.venues .venue .images { width: 50%; }
+
+    section.venues .venue-split { display: none; }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
