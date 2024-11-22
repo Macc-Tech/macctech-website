@@ -194,6 +194,7 @@ section.venues .venue .image img { width: 100%; }
 
 section.venues .venue-split { padding: 1em 0 0 0; clear: both; }
 
+img.home-image { border: 1px solid black; border-radius: 8px; }
 
 @media screen and (min-width: 1000px) {
     body { }
@@ -212,7 +213,8 @@ section.venues .venue-split { padding: 1em 0 0 0; clear: both; }
 	div.socials div a {width:100px; height: 100px;}
 	div.socials div img {width:100px; height: 100px;}
 	
-	
+    img.home-image { width: 640px; }
+    
 	div.organisers{ width: 450px; height:204px; margin : 0 auto 0 auto;}
 	div.organisers div {margin-right: 50px; float: left;}
 	div.organisers div:last-of-type{margin-right: 0px;}
