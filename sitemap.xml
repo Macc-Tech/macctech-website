@@ -9,6 +9,108 @@ permalink: /sitemap.xml
     <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
   </url>
   <url>
+    <loc>https://www.macctech.co.uk/events</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.macctech.co.uk/events/20260128</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20250312</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20241002</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20240703</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20240417</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20240228</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20231004</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20230803</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20230413</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20230202</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20190212</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20180226</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20180115</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20171120</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20170918</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20170724</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20170619</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20170522</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20170424</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20170327</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20170227</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20170130</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20161121</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+  <url>
+    <loc>https://www.macctech.co.uk/events/20161024</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+
+  <url>
     <loc>https://www.macctech.co.uk/venues</loc>
     <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
   </url>
