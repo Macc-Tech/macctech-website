@@ -237,7 +237,9 @@ img.home-image { border: 1px solid black; border-radius: 8px; }
     section.venues .venue .details address { font-size: 0.8em; }
     section.venues .venue .images { width: 50%; }
 
-    section.venues .venue-split { display: none; }
+    section.venues .venue.alone { text-align: center; float: none; margin: auto; }
+
+    section.venues .venue-split:not(.always-show) { display: none; }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
