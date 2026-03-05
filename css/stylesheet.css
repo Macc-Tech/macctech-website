@@ -67,6 +67,7 @@ div.rooms div img {width: 120px; float: left; margin: 0 40px 0 40px ! important;
 .blockLink {overflow: auto; display:block;}
 
 .highlight {color: #e80441; }
+.brand-colour {color: #2a3276; }
 
 body {
     font-family: Helvetica, Verdana, Arial, sans-serif;
@@ -116,7 +117,7 @@ nav {display:block; position:relative; float:left; width:100%; background-color:
 #main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
     font-size: 1.2em;
     font-weight: bold;
-    margin: 1em 0 0 0;
+    margin: 0;
     padding: 0 0 1em 0; 
     height:inherit;
 }
