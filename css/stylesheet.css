@@ -38,6 +38,7 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
  
 .left-aligned-section { text-align: left; }
 .left-aligned-section.auto-width { display: inline-block; }
+.max-width-section { max-width: 640px; }
 
 .bold-links a { font-weight: bold; }
 
@@ -135,6 +136,7 @@ nav {display:block; position:relative; float:left; width:100%; background-color:
 
 #main p.time { margin: 1em 0; }
 
+
 small { font-size: 0.75em; }
 
 #content {
@@ -167,6 +169,17 @@ footer {color:white; padding: 0.5em 0 0.5em 0; font-size:0.8em;}
 
 #contentDiv p {
     position:relative;
+}
+
+#contentDiv ul {
+    margin: 0;
+    padding: 1em;
+}
+
+#contentDiv ul li {
+    margin: 0 0 1em 0;
+    padding: 0;
+    list-style: disc;
 }
 
 footer {
