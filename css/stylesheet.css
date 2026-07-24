@@ -149,7 +149,7 @@ small { font-size: 0.75em; }
 	text-align:center;
 }
 
-#content img {
+#content img, #content video {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -157,8 +157,7 @@ small { font-size: 0.75em; }
     margin-bottom: 5px;
 }
 
-#content img.gallery { margin-bottom: 1em;}
-
+#content img.gallery, #content video.gallery { margin-bottom: 1em;}
 
 header, footer {background-color: #2a3276;}
 footer {color:white; padding: 0.5em 0 0.5em 0; font-size:0.8em;}
@@ -236,7 +235,7 @@ img.home-image { border: 1px solid black; border-radius: 8px; }
 	
     img.home-image { width: 640px; }
 
-    #content img.gallery { max-width: 640px; }
+    #content img.gallery, #content video.gallery { max-width: 640px; }
 
     div.organisers{ width: 450px; height:204px; margin : 0 auto 0 auto;}
 	div.organisers div {margin-right: 50px; float: left;}
