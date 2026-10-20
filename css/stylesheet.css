@@ -48,10 +48,6 @@ div.socials {width: 360px; margin: 0 auto 0 auto; clear:both;}
 div.socials div {width:50px; height:50px; margin-right: 12px; float:left; }
 div.socials div:last-of-type{margin-right: 0px;}
 
-div.organisers {clear:both;}
-div.organisers div {width:200px; height:224px;  margin: 0 auto 0 auto;}
-
-
 div.rooms {clear:both;}
 div.rooms div {width:200px; height:120px; margin: 0 auto 0 auto;}
 div.rooms div img {width: 134px; float: left; }
@@ -59,7 +55,6 @@ div.rooms div img {width: 134px; float: left; }
 div.socials div a {width: 50px; height: 50px; float: left;}
 div.socials div img {width: 50px; height: 50px; float: left; border-radius: 6px; }
 
-div.organisers div img {width: 134px; height: 134px; float: left; margin: 0 33px 0 33px ! important;}
 div.rooms div img {width: 120px; float: left; margin: 0 40px 0 40px ! important;}
 
 .mainLink {font-weight: bold;}
@@ -109,7 +104,8 @@ header {
 	background:url(/images/macc-tech-logo.png) center center no-repeat;
 }
 
-nav {display:block; position:relative; float:left; width:100%; background-color:white; }    
+nav {display:block; position:relative; float:left; width:100%; background-color:white; }
+nav a { text-wrap: nowrap; }
 
 #main {
     position:relative;
@@ -214,6 +210,18 @@ section.venues .venue .image img { width: 100%; }
 
 section.venues .venue-split { padding: 1em 0 0 0; clear: both; }
 
+section.organisers .organiser { clear: both; }
+section.organisers .organiser>div { margin-bottom: 2em }
+section.organisers .organiser .details { width: 60%; float: left; padding-right: 8px; box-sizing: border-box; text-align: left; font-size: 0.7em; line-height: 1.5em; }
+section.organisers .organiser .details h2 { margin: 0 !important; padding: 0 !important; }
+section.organisers .organiser .details small { margin: 0 0 16px 0; font-size: 0.8em; }
+section.organisers .organiser .images { width: 40%; float: left; padding-left: 8px; box-sizing: border-box; }
+section.organisers .organiser .image img { width: 100%; }
+section.organisers .organiser a.linkedin { padding: 0; }
+section.organisers .organiser a.linkedin:before { content: ""; background: url(/images/linkedin-logo.png) no-repeat; background-size: contain; border-radius: 2px 2px; display: inline-block; width: 16px; height: 16px; margin-right: 4px; vertical-align: text-bottom; }
+
+section.organisers .organiser-split { padding: 1em 0 0 0; clear: both; }
+
 img.home-image { border: 1px solid black; border-radius: 8px; }
 
 .file::before { background-image: url(/images/file.png); background-repeat: no-repeat; width: 16px; height: 16px; content: ""; display: inline-block; margin-right: 4px; vertical-align: text-bottom; }
@@ -237,10 +245,6 @@ img.home-image { border: 1px solid black; border-radius: 8px; }
 
     #content img.gallery, #content video.gallery { max-width: 640px; }
 
-    div.organisers{ width: 450px; height:204px; margin : 0 auto 0 auto;}
-	div.organisers div {margin-right: 50px; float: left;}
-	div.organisers div:last-of-type{margin-right: 0px;}
-	
 	div.rooms{ width: 200px; height:120px; margin : 0 auto 0 auto;}
 	div.rooms div {float: left;}
 	div.rooms div:last-of-type{margin-right: 0px;}
@@ -254,6 +258,16 @@ img.home-image { border: 1px solid black; border-radius: 8px; }
     section.venues .venue.alone { text-align: center; float: none; margin: auto; }
 
     section.venues .venue-split:not(.always-show) { display: none; }
+
+    section.organisers .organiser { clear: unset !important; }
+    section.organisers .organiser { width: 50%; float: left; padding: 16px; box-sizing: border-box; }
+    section.organisers .organiser .details { width: 60%; font-size: 1em; line-height: inherit; }
+    section.organisers .organiser .details small { font-size: 0.8em; }
+    section.organisers .organiser .images { width: 40%; }
+
+    section.organisers .organiser.alone { text-align: center; float: none; margin: auto; }
+
+    section.organisers .organiser-split:not(.always-show) { display: none; }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
